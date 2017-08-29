@@ -10,4 +10,4 @@
 0 9 0 0 0 0 4 0 0
 puzzling.stackexchange.com
 'world's most difficult' Sudoku puzzle
-my program cannot currently solve this puzzle
+my program can solve this puzzle in just over 5 seconds
