@@ -166,8 +166,8 @@ public class Solver {
 								for (k = 0; k < dimension; k++) {
 									int anchorRow = getAnchor(i);
 									int anchorColumn = getAnchor(j);
-									for (int row = anchorRow; row < (anchorRow + 4); row++) {
-										for (int col = anchorColumn; col < (anchorColumn + 4); col++) {
+									for (int row = anchorRow; row < (anchorRow + 4) && row < dimension; row++) {
+										for (int col = anchorColumn; col < (anchorColumn + 4) && col < dimension; col++) {
 											if (grid[row][col].getPossibleNum(k) == false) {
 												numNotK++;
 											}
